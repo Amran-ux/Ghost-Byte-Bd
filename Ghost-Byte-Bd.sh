@@ -14,12 +14,12 @@ NC='\033[0m'  # No Color
 # Banner with Beautiful Colors
 function banner() {
     echo -e "${CYAN}"
-    echo "███████╗ ██████╗ ██╗  ██╗████████╗    ${BOLD}${CYAN}██████╗ ██████╗ ██████╗ ${NC}"
-    echo "██╔════╝██╔═══██╗██║ ██╔╝╚══██╔══╝    ██╔══██╗██╔══██╗██╔══██╗"
-    echo "███████╗██║   ██║█████╔╝    ██║       ██████╔╝██████╔╝██████╔╝"
-    echo "╚════██║██║   ██║██╔═██╗    ██║       ██╔═══╝ ██╔═══╝ ██╔═══╝ "
-    echo "███████║╚██████╔╝██║  ██╗   ██║       ██║     ██║     ██║     "
-    echo "╚══════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝       ╚═╝     ╚═╝     ╚═╝     "
+    echo -e "███████╗ ██████╗ ██╗  ██╗████████╗    ${BOLD}${CYAN}██████╗ ██████╗ ██████╗ ${NC}"
+    echo -e "██╔════╝██╔═══██╗██║ ██╔╝╚══██╔══╝    ██╔══██╗██╔══██╗██╔══██╗"
+    echo -e "███████╗██║   ██║█████╔╝    ██║       ██████╔╝██████╔╝██████╔╝"
+    echo -e "╚════██║██║   ██║██╔═██╗    ██║       ██╔═══╝ ██╔═══╝ ██╔═══╝ "
+    echo -e "███████║╚██████╔╝██║  ██╗   ██║       ██║     ██║     ██║     "
+    echo -e "╚══════╝ ╚═════╝ ╚═╝  ╚═╝   ╚═╝       ╚═╝     ╚═╝     ╚═╝     "
     echo -e "${BOLD}${CYAN}        GHOST-BYTE-BD - All-in-One Information Gathering Tool${NC}"
     echo -e "${NC}"
 }
@@ -28,9 +28,9 @@ function banner() {
 function menu() {
     banner
     echo -e "${YELLOW}[+] ${GREEN}Select an option from the menu below:${NC}"
-    echo "14. ${BOLD}${CYAN}Sitemap Generator (New)${NC}"
-    echo "15. ${BOLD}${CYAN}Server OS & Version Detection (New)${NC}"
-    echo "16. ${BOLD}${RED}Exit${NC}"
+    echo -e "14. ${BOLD}${CYAN}Sitemap Generator (New)${NC}"
+    echo -e "15. ${BOLD}${CYAN}Server OS & Version Detection (New)${NC}"
+    echo -e "16. ${BOLD}${RED}Exit${NC}"
 
     read -p "Select an option (14-16): " choice
 
